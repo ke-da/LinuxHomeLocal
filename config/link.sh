@@ -9,3 +9,7 @@ cd .vim
 ln -s ../local/config/vim/pathogen/autoload .
 ln -s ../local/config/vim/bundle .
 
+echo "PATH=\$HOME/local/bin:"$PATH >> $HOME/.bashrc
+echo "GIT_EDITOR=/usr/bin/vim" >> $HOME/.bashrc
+echo "export GIT_EDITOR" >> $HOME/.bashrc
+echo "export PATH" >> $HOME/.bashrc
